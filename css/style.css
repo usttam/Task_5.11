@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color:blanchedalmond;
+    background: url('https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')
+    bottom no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #e91e63;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: inherit;
+    /*font-style: oblique;*/
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: beige;
+}
+footer .links{
+    margin-bottom: 50px;
+}
+footer .links > a{
+    color: gray;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer .links > a:hover{
+    color: #1000a1;
+    text-decoration: underline;  
+
+    }
+.copyright{
+    color: rgb(108,177,125);
+}
+.news{
+    background-color: #9e9e9e29;
+    padding: 50px 0 32px;
+}
+article{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128,128,128);
+}
+article a{
+    color: rgb(33,37,41);
+    text-decoration: none;
+}
+article a:hover{
+    color: #0085a1;
+}
+article h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta{
+    color: rgb(134,142,150);
+    margin-bottom: 5px;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
