@@ -24,13 +24,13 @@ footer{
     padding-top: 20px;
     padding-bottom: 60px;
     text-align: center;
-    background-color: beige;
+    background-color: black;
 }
 footer .links{
     margin-bottom: 50px;
 }
 footer .links > a{
-    color: gray;
+    color: cadetblue;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -49,9 +49,12 @@ footer .links > a:hover{
 .news{
     background-color: #9e9e9e29;
     padding: 50px 0 32px;
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 article{
-    width: 768px;
+    width: 45%;
     margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(128,128,128);
@@ -75,4 +78,7 @@ article img{
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+article p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
